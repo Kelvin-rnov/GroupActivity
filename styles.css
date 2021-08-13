@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: "Source Code Pro", monospace;
+    background-image: url(images/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    color:indigo;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.box {
+    background:#eee;
+    padding: 4rem;
+    box-shadow: 2px 2px 16px rgba(49, 24, 24, 0.16);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.perfil{
+    margin-top: 2rem;
+}
+
+.perfil-pic{
+    border-radius: 50%;
+    margin: 0 auto 2rem auto;
+}
+
+.perfil span{
+    font-size: 24px;
+}
+
+.perfil p{
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+
+}
+
+.redes-sociais li{
+    margin-left: 1rem;
+}
+
+.experiencia{
+    max-width: 886px;
+    margin: 8rem 0;
+    box-sizing: border-box;
+}
+
+
+.experiencia ul{
+    margin-top: 3rem;
+
+}
+.experiencia li{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items:flex-start;
+    text-align:left;
+    gap: 1rem;
+    
+}
+
+.experiencia li + li{
+    margin-top: 2rem;
+}
+
+.experiencia img{
+    border-radius: 10px;
+}
+
+
+.experiencia h2{
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.faculdade{
+    max-width: 886px;
+    margin: 8rem 0;
+    box-sizing: border-box;
+}
+
+
+.faculdade ul{
+    margin-top: 3rem;
+
+}
+.faculdade li{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items:flex-start;
+    text-align:left;
+    gap: 1rem;
+    
+}
+
+.faculdade li + li{
+    margin-top: 2rem;
+}
+
+.faculdade img{
+    border-radius: 10px;
+}
+
+
+.faculdade h2{
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+
+.conhecimento{
+    max-width: 886px;
+    margin: 8rem 0;
+    box-sizing: border-box;
+}
+
+.conhecimento ul{
+    margin-top: 3rem;
+
+}
+.conhecimento li{
+    display:inline-block;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    z-index: 1;
+    text-align:center;
+    margin: 25px;
+    
+}
+
+.conhecimento li + li{
+    margin-top:2rem;
+}
+
+.conhecimento img{
+    border-radius: 10px;
+}
+
+
+.conhecimento h2{
+    font-weight:normal;
+    margin-bottom: 1rem;
+}
+
+.copyright {
+    text-align: center;
+    color:seashell;
+    margin: 30px;
+}
+
+
+
