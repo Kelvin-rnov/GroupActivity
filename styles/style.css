@@ -1,0 +1,107 @@
+body{
+    height: 100%;
+    padding: 0px;
+    margin: 5px;
+    border-color:rgb(213, 213, 218) ;
+    border-style: none;
+    background-image: url(../images/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(213, 213, 218);
+    padding: 0px;
+    color: rgb(67, 2, 83);
+}
+a:link 
+{ 
+text-decoration:none;
+color:rgb(67, 2, 83);
+} 
+a:hover {
+    text-decoration: underline;
+}
+.perfil{
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    padding: 10px;  
+}
+#eu{
+    border-radius: 50%;
+    border: 5px solid rgb(67, 2, 83);
+    margin-right: 50px;
+}
+main{
+    align-items: center;
+    background: url(fundo.jpg);
+    color:  rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.sobre{
+    height: 170px;
+    width: 150px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    background-color: rgb(67, 2, 83); 
+    border: black;
+    border-style: solid;
+    border-radius: 50%;
+}
+.sobre:active {
+    background-color:rgb(67, 2, 83);
+    box-shadow: 0 5px rgb(0, 0, 0);
+    transform: translateY(10px);
+  }
+.curso{
+    height: 170px;
+    width: 150px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    background-color: rgb(67, 2, 83); 
+    border: black;
+    border-style: solid;
+    border-radius: 50%;
+  }
+  .curso:active {
+    background-color:rgb(67, 2, 83);
+    box-shadow: 0 5px rgb(0, 0, 0);
+    transform: translateY(10px);
+  }
+.projetos{
+    height: 170px;
+    width: 150px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    background-color: rgb(67, 2, 83);
+    opacity: 1; 
+    border: black;
+    border-style: solid;
+    border-radius: 50%;
+  }
+  .projetos:active {
+    background-color:rgb(67, 2, 83);
+    box-shadow: 0 5px rgb(0, 0, 0);
+    transform: translateY(10px);
+  }
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: 6px 2px rgb(67, 2, 83);
+}
+footer{
+    background-color:rgb(139, 139, 214);
+    font-size: 30px;
+    color: white;
+    line-height: 50px;
+    text-shadow: 3px 3px rgb(67, 2, 83);
+    word-spacing: 0px;
+}
+
