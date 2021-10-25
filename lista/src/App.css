@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+
+}
+
+html {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 5%;
+}
+
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+h1{
+  color: #4CE64C;
+}
+
+#in{
+  height: 24px;
+  width: 300px;
+  border: none;
+  border-radius: 12px;
+  padding-left: 15px;
+  margin-right: 7px;
+}
+
+#bu{
+  height: 24px;
+  width: 130px;
+  border: none;
+  border-radius: 12px;
+  background-color: #4CE46C;
+}
+
+#bu:hover{
+  cursor: pointer;
+  background-color: green;
+  transition: 1s;
+}
